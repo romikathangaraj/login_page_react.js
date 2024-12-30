@@ -1,0 +1,27 @@
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "firstname": "narmatha",
+    "lastname": "senthil",
+    "email": "ngarajkalaivani@gmail.com",
+    "password": "H7257781"
+}
+###
+POST http://localhost:5000/api/auth/
+Content-Type: application/json
+
+{
+    "email": "hari@gmail.com",
+    "password": "HR@2002317"
+}
+###
+
+get http://localhost:5000/api/auth/users?page=${page}&limit=5
+###
+
+delete http://localhost:5000/api/auth/users/:676f9d134f7c60451f024576
+###
+
+get  http://localhost:5000/api/auth/users/:676fc892aec178d2d8ef9950
